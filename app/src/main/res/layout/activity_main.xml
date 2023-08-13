@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="#791AA6"
+        android:backgroundTintMode="add"
+        android:onClick="onClickS"
+        android:text="S"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="51dp"
+        android:backgroundTint="#4E5EE4"
+        android:backgroundTintMode="add"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="160dp"
+        android:background="#FDFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button00"
+                android:layout_width="48dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#333030"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#373535"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button02"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#2B2A2A"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button03"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button04"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                android:visibility="visible"
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:backgroundTint="#FDFCFC"
+                android:backgroundTintMode="add"
+                android:onClick="onClicked"
+                android:text=" "
+                app:strokeColor="#121111"
+                app:strokeWidth="1dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="112dp"
+        android:text="SOS GAME"
+        android:textColor="#7E0CEF"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:buttonTint="#791AAC"
+        android:text="PLAYER 1"
+        android:textColor="#791AAC"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:buttonTint="#791AAC"
+        android:text="PLAYER 2"
+        android:textColor="#791AAC"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="51dp"
+        android:backgroundTint="#F33F3F"
+        android:backgroundTintMode="add"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toEndOf="@+id/radioButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonO"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="85dp"
+        android:backgroundTint="#791AAC"
+        android:backgroundTintMode="add"
+        android:onClick="onClickO"
+        android:text="o"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="14dp"
+        android:text="VS"
+        android:textColor="#791AAC"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="203dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#272525"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#791AA6"
+        android:textSize="24sp"
+        android:textStyle="normal|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="162dp"
+        android:backgroundTint="#791AA6"
+        android:onClick="gameOver"
+        android:text="RESET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonS" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
